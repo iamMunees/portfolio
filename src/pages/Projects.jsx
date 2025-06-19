@@ -10,9 +10,9 @@ const Projects = () => {
         id="projects"
         className="my-8 py-12 px-6 max-w-7xl mx-auto  rounded-xl shadow-inner"
       >
-        <h2 className="text-4xl font-bold text-white text-center mb-12">My Projects</h2>
+        <span className="text-4xl font-bold text-black border-b-2 flex justify-center  text-center mb-12">My Projects</span>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 hover:transition duration-700 lg:grid-cols-3 gap-8">
           {projectDetails.map((project) => (
             <motion.div
               key={project.id}
@@ -20,17 +20,17 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: project.id * 0.1 }}
               viewport={{ once: true }}
-              className="rounded-lg p-6 shadow-lg overflow-hidden relative group hover:shadow-2xl transition-all duration-300"
+              className="rounded-lg p-6  hover:transition duration-700 shadow-lg overflow-hidden relative group hover:shadow-2xl"
               style={{
                 backgroundImage: `url(${CardBg})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
             >
-              {/* Dark Overlay */}
+
               <div className="absolute inset-0 bg-black/70 group-hover:bg-black/60 transition-all duration-300 rounded-lg z-0"></div>
 
-              {/* Card Content */}
+         
               <div className="relative z-10">
                 <img
                   src={project.image}

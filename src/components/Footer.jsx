@@ -1,6 +1,3 @@
-import { div } from 'framer-motion/client';
-import { Instagram, Github, Linkedin, Mail, Phone } from 'lucide-react';
-
 const Footer = () => {
   return (
     <footer className="bg-darkCard text-darkText py-6 text-center text-sm">

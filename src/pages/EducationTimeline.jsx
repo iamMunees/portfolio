@@ -33,17 +33,16 @@ const EducationTimeline = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-white dark:bg-gray-900 px-6 py-16 transition-colors duration-300">
+    <section className="min-h-screen  px-6 py-16 transition-colors duration-300">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-indigo-700 dark:text-indigo-400 mb-12">Education Timeline</h2>
 
         <div className="relative border-l-4 border-indigo-600 dark:border-indigo-400 pl-6">
           {educationData.map((item, index) => (
             <div key={index} className="mb-12 relative">
-              {/* Timeline Dot */}
+              
               <div className="absolute -left-3 top-1 w-6 h-6 bg-indigo-600 dark:bg-indigo-400 rounded-full border-4 border-white dark:border-gray-900"></div>
 
-              {/* Card */}
               <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-lg shadow-lg transition-all duration-300">
                 <h3 className="text-xl font-bold text-indigo-600 dark:text-indigo-300">{item.title}</h3>
                 <p className="text-sm text-gray-800 dark:text-gray-200">

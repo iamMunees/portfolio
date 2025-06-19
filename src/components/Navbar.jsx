@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.png';
+import Logo from '../../public/logoImg.png';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
@@ -36,8 +36,8 @@ const Navbar = () => {
     <nav style={navStyles} className="px-6 py-2 shadow-md bg-transparent">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-4">
-          <img src={Logo} alt="Logo" className="h-12 w-auto" />
-          <span className="text-xl font-semibold hidden sm:inline">Muneeswaran</span>
+          <img src={Logo} alt="Logo" className="h-12 w-auto bg-amber-50 rounded-full" />
+          <span className="text-xl font-semibold  hidden sm:inline">Muneeswaran</span>
         </div>
 
         <div className="hidden md:flex gap-8 text-lg font-medium">

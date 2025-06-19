@@ -1,19 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ProfileImage from '../assets/profile.png';
+import ProfileImage from '../assets/AboutImg.png';
 import ResumePDF from '../assets/MUNEESWARAN.pdf';
-import AboutImage from '../assets/about.jpg'; 
 
 const About = () => {
   return (
     <div className="relative overflow-hidden">
-      {/* Background Image with Blur */}
-      <div
-        className="absolute inset-0 bg-cover bg-center blur-xs brightness-75 scale-105"
-        style={{ backgroundImage: `url(${AboutImage})` }}
-      ></div>
-
-      {/* Overlay Content */}
+   
       <div className="relative z-10 max-w-6xl mx-auto py-20 px-6">
         <motion.div
           className="flex flex-col md:flex-row items-center gap-10"
@@ -21,7 +14,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          {/* Profile Image */}
+        
           <motion.div
             className="flex-shrink-0"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -31,13 +24,13 @@ const About = () => {
             <img
               src={ProfileImage}
               alt="Muneeswaran"
-              className="w-96 h-96 rounded-full object-cover shadow-xl border-4 border-white"
+              className="w-96 h-96 rounded-lg  object-cover shadow-xl "
             />
           </motion.div>
 
-          {/* Text Content */}
+        
           <motion.div
-            className="text-center md:text-left text-white"
+            className="text-center md:text-left text-white bg-gray-800 p-8 rounded-lg shadow-lg"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7 }}
@@ -45,7 +38,7 @@ const About = () => {
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
 
             <p className="text-lg mb-4 leading-relaxed">
-              I'm <span className="text-yellow-400 font-semibold">Muneeswaran S</span>, a passionate frontend developer
+              I'm <span className="text-yellow-400 animate- font-semibold">Muneeswaran S</span>, a passionate frontend developer
               with hands-on experience in building dynamic, responsive apps using React, JavaScript, and Tailwind CSS.
               I'm currently pursuing a B.Tech in IT at Sengunthar College of Engineering.
             </p>
