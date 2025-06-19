@@ -19,6 +19,14 @@ const Contact = () => {
             GitHub
           </a>
         </div>
+        <div className='flex flex-col  sm:flex-row justify-center items-center gap-6'>
+          <span className='mt-8 text-darkText text-lg'>Mobile No : </span>
+          <p className="mt-8 text-darkText text-lg">+91 8220723803 </p>
+        </div>
+         <div className='flex flex-col  sm:flex-row justify-center items-center gap-6'>
+          <span className='mt-4 text-darkText text-lg'>Email : </span>
+          <p className="mt-4 text-darkText text-lg">dev.iammunees@gmail.com </p>
+        </div>
       </section>
     </div>
   )

@@ -10,7 +10,7 @@ const Projects = () => {
         id="projects"
         className="my-8 py-12 px-6 max-w-7xl mx-auto  rounded-xl shadow-inner"
       >
-        <span className="text-4xl font-bold text-black border-b-2 flex justify-center  text-center mb-12">My Projects</span>
+        <span className="text-4xl font-bold text-black flex justify-center  text-center mb-12">My Projects</span>
 
         <div className="grid grid-cols-1 md:grid-cols-2 hover:transition duration-700 lg:grid-cols-3 gap-8">
           {projectDetails.map((project) => (
