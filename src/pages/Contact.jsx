@@ -9,16 +9,17 @@ const Contact = () => {
           I'm always open to new opportunities and collaborations. Feel free to reach out if you have a project in mind, a question, or just want to connect!
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-          <a href="mailto:dev.iammunees@gmail.com" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+          <a href="mailto:dev.iammunees@gmail.com" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white hover:bg-sky-500 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
             Email Me
           </a>
-          <a href="https://www.linkedin.com/in/iammuneeswaran/" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+          <a href="https://www.linkedin.com/in/iammuneeswaran/" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white hover:bg-sky-500 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
             LinkedIn
           </a>
-          <a href="https://github.com/iamMunees" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+          <a href="https://github.com/iamMunees" target="_blank" rel="noopener noreferrer" className="inline-block border border-primary text-primary hover:bg-primary hover:text-white hover:bg-sky-500 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
             GitHub
           </a>
         </div>
+        
         <div className='flex flex-col  sm:flex-row justify-center items-center gap-6'>
           <span className='mt-8 text-darkText text-lg'>Mobile No : </span>
           <p className="mt-8 text-darkText text-lg">+91 8220723803 </p>

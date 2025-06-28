@@ -2,7 +2,8 @@ import img3 from '../assets/projects/task.png';
 import img1 from '../assets/projects/first.png';
 import img2 from '../assets/projects/two.png';
 import img4 from '../assets/projects/coll.png';
-import img5 from '../assets/projects/food.png';
+import img5 from '../assets/projects/clg.png';
+import img6 from '../assets/projects/food.png';
 const projectDetails = [
   {
     id: 1,
@@ -27,7 +28,7 @@ const projectDetails = [
     title: 'Interview Task',
     description: 'A basic eCommerce website with product listing, cart, and checkout functionalities.',
     image:img3,
-    techStack: ['React.js', 'API', 'Tailwind CSS'],
+    techStack: ['React.js', , 'Tailwind CSS'],
     liveLink: 'https://thiran360-ai.vercel.app/',
     githubLink: 'https://github.com/iamMunees/Thiran360-ai',
   },
@@ -39,11 +40,20 @@ const projectDetails = [
     techStack: ['React.js', 'API', 'Database'],
     githubLink: 'https://github.com/iamMunees/UniSync_Student-Collap',
   },
+  {
+    id: 5,
+    title: 'Web for college symposium',
+    description: 'This is a static webite, facilitating easy access to detailed information for both participants and attendees of the symposium.',
+    image: img5,
+    techStack: ['React.js', 'Tailwind CSS',],
+    liveLink: 'https://techsym-sarayu-2k24.vercel.app/',
+    githubLink: 'https://github.com/naveenchinnadurai/Clg-Symposium-web',
+  },
     {
-    id: 3,
+    id: 6,
     title: 'A modern food delivery app',
     description: 'Frontend UI for a food delivery app built with React and Tailwind CSS.',
-    image: img5,
+    image: img6,
     techStack: ['React.js', 'Tailwind CSS',],
     liveLink: 'https://zest-go.vercel.app/',
     githubLink: 'https://github.com/iamMunees/ZestGo',

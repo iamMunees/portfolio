@@ -1,17 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import projectDetails from '../scripts/projectDetails.js';
-import CardBg from '../assets/card.jpg'; // binary matrix image
+import CardBg from '../assets/card.jpg';
 
 const Projects = () => {
   return (
     <div>
       <section
         id="projects"
-        className="my-8 py-12 px-6 max-w-7xl mx-auto  rounded-xl shadow-inner"
-      >
+        className="my-8 py-12 px-6 max-w-7xl mx-auto  rounded-xl shadow-inner">
         <span className="text-4xl font-bold text-black flex justify-center  text-center mb-12">My Projects</span>
-
         <div className="grid grid-cols-1 md:grid-cols-2 hover:transition duration-700 lg:grid-cols-3 gap-8">
           {projectDetails.map((project) => (
             <motion.div
@@ -29,8 +27,6 @@ const Projects = () => {
             >
 
               <div className="absolute inset-0 bg-black/70 group-hover:bg-black/60 transition-all duration-300 rounded-lg z-0"></div>
-
-         
               <div className="relative z-10">
                 <img
                   src={project.image}

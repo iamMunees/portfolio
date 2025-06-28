@@ -44,6 +44,7 @@ const Navbar = () => {
           <Link to="/" className="hover:text-sky-300 transition">Home</Link>
           <Link to="/about" className="hover:text-sky-300 transition">About</Link>
           <Link to="/projects" className="hover:text-sky-300 transition">Projects</Link>
+          <Link to="/skill" className="hover:text-sky-300 transition">Skills</Link>
           <Link to="/contact" className="hover:text-sky-300 transition">Contact</Link>
         </div>
 
@@ -74,6 +75,7 @@ const Navbar = () => {
           <Link to="/" onClick={toggleMenu} className="hover:text-sky-300">Home</Link>
           <Link to="/about" onClick={toggleMenu} className="hover:text-sky-300">About</Link>
           <Link to="/projects" onClick={toggleMenu} className="hover:text-sky-300">Projects</Link>
+          <Link to="/skill" onClick={toggleMenu} className="hover:text-sky-300">Skills</Link>
           <Link to="/contact" onClick={toggleMenu} className="hover:text-sky-300">Contact</Link>
         </div>
       )}

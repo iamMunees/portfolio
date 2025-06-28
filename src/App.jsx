@@ -8,26 +8,30 @@ import Navbar from './components/Navbar'
 import Skills from './pages/Skills'
 import Footer from './components/Footer'
 import EducationTimeline from './pages/EducationTimeline'
+import Pages from './pages/pages'
 
 function App() {
 
   return (
     <div>
       <Navbar />
+      {/* 
       <Home />
       <About />
       <EducationTimeline/>
       <Skills />
       <Projects />
       <Contact />
-      {/* 
+      */}
+     
       <Routes>
-        <Route path="/" element={<Home />} />  
+        <Route path="/" element={<Pages />} />  
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} /> 
+        <Route path="/skill" element={<Skills />} /> 
       </Routes>
-      */}
+    
       <Footer />
     </div>
   )
